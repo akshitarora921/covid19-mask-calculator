@@ -1,26 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import "./App.css";
+import axios from "axios";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [data, setData] = useState(null);
+    useEffect(() => {
+        axios
+            .get(
+                "https://api.rootnet.in/covid19-in/unofficial/covid19india.org/statewise"
+            )
+            .then((res) => setData(res.data));
+    }, []);
+    return (
+        <div className='app'>
+            <h1>Covid 19 Mask distributer</h1>
+        </div>
+    );
 }
 
 export default App;
