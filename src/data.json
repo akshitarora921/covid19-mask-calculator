@@ -1,0 +1,276 @@
+{
+    "success": true,
+    "data": {
+        "source": "covid19india.org",
+        "lastRefreshed": "2020-09-26T08:42:19.588Z",
+        "total": {
+            "confirmed": 5908748,
+            "recovered": 4849114,
+            "deaths": 93440,
+            "active": 965360
+        },
+        "statewise": [
+            {
+                "state": "Maharashtra",
+                "confirmed": 1300757,
+                "recovered": 992806,
+                "deaths": 34761,
+                "active": 272775
+            },
+            {
+                "state": "Andhra Pradesh",
+                "confirmed": 661458,
+                "recovered": 588169,
+                "deaths": 5606,
+                "active": 67683
+            },
+            {
+                "state": "Tamil Nadu",
+                "confirmed": 569370,
+                "recovered": 513836,
+                "deaths": 9148,
+                "active": 46386
+            },
+            {
+                "state": "Karnataka",
+                "confirmed": 557212,
+                "recovered": 450302,
+                "deaths": 8417,
+                "active": 98474
+            },
+            {
+                "state": "Uttar Pradesh",
+                "confirmed": 378533,
+                "recovered": 313686,
+                "deaths": 5450,
+                "active": 59397
+            },
+            {
+                "state": "Delhi",
+                "confirmed": 264450,
+                "recovered": 228436,
+                "deaths": 5147,
+                "active": 30867
+            },
+            {
+                "state": "West Bengal",
+                "confirmed": 241059,
+                "recovered": 211020,
+                "deaths": 4665,
+                "active": 25374
+            },
+            {
+                "state": "Odisha",
+                "confirmed": 205452,
+                "recovered": 165432,
+                "deaths": 836,
+                "active": 39184
+            },
+            {
+                "state": "Telangana",
+                "confirmed": 183866,
+                "recovered": 152441,
+                "deaths": 1091,
+                "active": 30334
+            },
+            {
+                "state": "Bihar",
+                "confirmed": 175898,
+                "recovered": 161510,
+                "deaths": 881,
+                "active": 13506
+            },
+            {
+                "state": "Assam",
+                "confirmed": 167374,
+                "recovered": 136712,
+                "deaths": 625,
+                "active": 30034
+            },
+            {
+                "state": "Kerala",
+                "confirmed": 160935,
+                "recovered": 111327,
+                "deaths": 636,
+                "active": 48893
+            },
+            {
+                "state": "Gujarat",
+                "confirmed": 130391,
+                "recovered": 110590,
+                "deaths": 3394,
+                "active": 16407
+            },
+            {
+                "state": "Rajasthan",
+                "confirmed": 124730,
+                "recovered": 104288,
+                "deaths": 1412,
+                "active": 19030
+            },
+            {
+                "state": "Haryana",
+                "confirmed": 120578,
+                "recovered": 101273,
+                "deaths": 1273,
+                "active": 18032
+            },
+            {
+                "state": "Madhya Pradesh",
+                "confirmed": 117588,
+                "recovered": 93238,
+                "deaths": 2152,
+                "active": 22198
+            },
+            {
+                "state": "Punjab",
+                "confirmed": 107096,
+                "recovered": 84025,
+                "deaths": 3134,
+                "active": 19937
+            },
+            {
+                "state": "Chhattisgarh",
+                "confirmed": 98565,
+                "recovered": 66860,
+                "deaths": 777,
+                "active": 30928
+            },
+            {
+                "state": "Jharkhand",
+                "confirmed": 77709,
+                "recovered": 64515,
+                "deaths": 661,
+                "active": 12533
+            },
+            {
+                "state": "Jammu and Kashmir",
+                "confirmed": 69832,
+                "recovered": 49557,
+                "deaths": 1105,
+                "active": 19170
+            },
+            {
+                "state": "Uttarakhand",
+                "confirmed": 45332,
+                "recovered": 33642,
+                "deaths": 555,
+                "active": 10934
+            },
+            {
+                "state": "Goa",
+                "confirmed": 31071,
+                "recovered": 25071,
+                "deaths": 386,
+                "active": 5614
+            },
+            {
+                "state": "Puducherry",
+                "confirmed": 25489,
+                "recovered": 19781,
+                "deaths": 494,
+                "active": 5214
+            },
+            {
+                "state": "Tripura",
+                "confirmed": 24405,
+                "recovered": 17969,
+                "deaths": 265,
+                "active": 6148
+            },
+            {
+                "state": "Himachal Pradesh",
+                "confirmed": 13679,
+                "recovered": 9526,
+                "deaths": 152,
+                "active": 3976
+            },
+            {
+                "state": "Chandigarh",
+                "confirmed": 11212,
+                "recovered": 8677,
+                "deaths": 145,
+                "active": 2390
+            },
+            {
+                "state": "Manipur",
+                "confirmed": 9791,
+                "recovered": 7602,
+                "deaths": 63,
+                "active": 2126
+            },
+            {
+                "state": "Arunachal Pradesh",
+                "confirmed": 8671,
+                "recovered": 6230,
+                "deaths": 14,
+                "active": 2427
+            },
+            {
+                "state": "Nagaland",
+                "confirmed": 5768,
+                "recovered": 4693,
+                "deaths": 11,
+                "active": 1027
+            },
+            {
+                "state": "Meghalaya",
+                "confirmed": 5158,
+                "recovered": 3343,
+                "deaths": 43,
+                "active": 1772
+            },
+            {
+                "state": "Ladakh",
+                "confirmed": 4025,
+                "recovered": 2971,
+                "deaths": 56,
+                "active": 998
+            },
+            {
+                "state": "Andaman and Nicobar Islands",
+                "confirmed": 3759,
+                "recovered": 3528,
+                "deaths": 52,
+                "active": 179
+            },
+            {
+                "state": "Dadra and Nagar Haveli and Daman and Diu",
+                "confirmed": 2993,
+                "recovered": 2775,
+                "deaths": 2,
+                "active": 185
+            },
+            {
+                "state": "Sikkim",
+                "confirmed": 2707,
+                "recovered": 1994,
+                "deaths": 31,
+                "active": 682
+            },
+            {
+                "state": "Mizoram",
+                "confirmed": 1835,
+                "recovered": 1289,
+                "deaths": 0,
+                "active": 546
+            },
+            {
+                "state": "State Unassigned",
+                "confirmed": 0,
+                "recovered": 0,
+                "deaths": 0,
+                "active": 0
+            },
+            {
+                "state": "Lakshadweep",
+                "confirmed": 0,
+                "recovered": 0,
+                "deaths": 0,
+                "active": 0
+            }
+        ]
+    },
+    "lastRefreshed": "2020-09-26T08:42:19.588Z",
+    "lastOriginUpdate": "2020-09-26T08:42:19.588Z"
+}
