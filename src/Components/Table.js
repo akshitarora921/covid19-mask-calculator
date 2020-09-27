@@ -1,7 +1,6 @@
-import { Skeleton } from "@material-ui/lab";
 import React from "react";
-import "../Table.css";
-// import numeral from "numeral";
+import { Skeleton } from "@material-ui/lab";
+import "../css/Table.css";
 
 function Table({ states, mask, title }) {
     return states ? (

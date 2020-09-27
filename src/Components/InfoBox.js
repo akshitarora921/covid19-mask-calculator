@@ -1,10 +1,9 @@
 import React from "react";
 import { Card, CardContent, Typography } from "@material-ui/core";
 import { Skeleton } from "@material-ui/lab";
-import "../infobox.css";
+import "../css/infobox.css";
 
 function InfoBox({ title, cases, active, isRed, ...props }) {
-    console.log(title, active, cases);
     return (
         <Card
             onClick={props.onClick}

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import "./App.css";
 import Table from "./Components/Table";
 import InfoBox from "./Components/InfoBox";
+import "./css/App.css";
 
 function App() {
     const [data, setData] = useState(null);
@@ -27,9 +27,8 @@ function App() {
     }, [maskNumber, data]);
     return (
         <div className='app'>
-            {/* <div className='app__left'> */}
             <div className='app__header'>
-                <h1>COVID-19 India</h1>
+                <h1>COVID-19 Mask Calculator</h1>
             </div>
             <div className='app__stats'>
                 <InfoBox
@@ -80,7 +79,6 @@ function App() {
                 <Table title='Cases per states' states={data?.statewise} />
             </div>
         </div>
-        // </div>
     );
 }
 
